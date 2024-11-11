@@ -15,19 +15,19 @@ Project1 contians the scripts to create new confifuration. It contains the follo
     - This files contains default list of packages.
 
 3. package_installer.sh
-    - This script installs all the packages in the packagelist.sh or a user define list of package file. Can be run stand alone. Type in the code below to see the usage.
+    - This script installs all the packages in the packagelist.sh or a user define list of package file. Can be run stand alone. Type in the code below to see the usage:
 
     ```bash
         package_installer.sh -h
     ```
 4. create_symbolic_link.sh 
-    - This script creates the symbolic link between the user files and the cloned configuration files. It has a default path defined for the cloned repostiory. User can also have the cloned repository elesewehere and use the new path for symbolic links. Can be run stand alone. Type in the code below to see the usage
+    - This script creates the symbolic link between the user files and the cloned configuration files. It has a default path defined for the cloned repostiory. User can also have the cloned repository elesewehere and use the new path for symbolic links. Can be run stand alone. Type in the code below to see the usage:
 
     ```bash
         create_symbolic_ling.sh -h
     ```
 5. execute_configuration_script.sh
-    - This script can invoke "package_installer.sh" or "create_symbolic_link.sh" depending on the usage. Created as part of the assignment ask. Type in the code below to see the usage
+    - This script can invoke "package_installer.sh" or "create_symbolic_link.sh" depending on the usage. Created as part of the assignment ask. Type in the code below to see the usage:
     
     ```bash
         execurte_configuration_script.sh
