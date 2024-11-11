@@ -7,7 +7,7 @@ This project has two project ditectories
 2. Project2
 
 ## Project1 contents
-Project1 contians the scripts to create new confifuration. It contains the following scripts:
+Project1 contians the scripts to create new configuration. It contains the following scripts:
 
 1. createclone.sh
     - This script clones the given repository with example configuration files.
