@@ -86,7 +86,7 @@ if [[ -n "$additional_groups" ]]; then
             echo "$group:x:$group_id:" | tee -a /etc/group > /tmp/some_output
         fi
         # Add the user to the existing group
-        sudo sed -i "/^${group}:/ s/$/,$username/" /etc/group
+        sed -i "/^${group}:/ s/$/,$username/" /etc/group
     done
 fi
 
