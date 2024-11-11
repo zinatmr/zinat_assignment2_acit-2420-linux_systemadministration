@@ -1,9 +1,9 @@
 #!/bin/bash
-
 # Title      : Manual User Creation Script
 # Author     : Mst Zinat Rehana
+# Version    : 1.0
 # Date       : Nov 10, 2024
-# Description: Script to create a new user by writing directly to system files.
+# Description: Script to create a new user directly without using any utility.
 # Options    : -u for new username, -s to specify shell, -d specify home directory, -g for additional groups for users, -h for help.
 
 # Default values
