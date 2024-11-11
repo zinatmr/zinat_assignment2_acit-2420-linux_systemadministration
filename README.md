@@ -1,5 +1,5 @@
 # zinat_assignment2_acit-2420-linux_systemadministration
-*Note use roo privelege or sudo to run the scripts.
+*Note use root privelege or sudo to run the scripts.
 
 ## Project Directories
 This project has two project ditectories
